@@ -103,5 +103,5 @@ if __name__ == '__main__':
     # opt.add_argument('--headless')  # 浏览器不提供可视化界面。Linux下如果系统不支持可视化不加这条会启动失败
     opt.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
     # 用cmd打开chrome --remote-debugging-port=9222
-    king = King("17717691506", "zty03163727", opt)
+    king = King("", "", opt)
     king.main()
